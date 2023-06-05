@@ -2,3 +2,11 @@
     height: 80vh;
     background-size: cover;
 }
+.overall{
+    position: relative !important;
+}
+.houseImage{
+    position: absolute !important;
+    top: 0;
+    left: 25%;
+}
