@@ -3,7 +3,6 @@ import Hero from "./Hero"
 function HomePage() {
     return (
         <>
-            <NavBar />
             <Hero />
         </>
     )
