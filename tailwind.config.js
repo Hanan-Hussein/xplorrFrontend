@@ -18,6 +18,7 @@ module.exports = {
       },
       backgroundImage:{
         herobackground: "url('/src/assets/worldMap.svg')",
+        vacationbackground: "url('/src/assets/vacation.jpg')",
       },
     
     },
