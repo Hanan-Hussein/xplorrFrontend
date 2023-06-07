@@ -36,6 +36,7 @@ function HeroSection() {
       <div className="container mx-auto my-5">
         <p className="my-7 font-bold tracking-wide">Things to do</p>
         <div className="grid grid-cols-5 gap-4 m-3">
+            
           <div>
             <div
               className="rounded-full h-[18vh]  w-[4rem] bg-cover"
