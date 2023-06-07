@@ -16,7 +16,7 @@ function Thingtodo() {
     return (
         <div className="container mx-auto my-5">
             <p className="my-7 font-bold tracking-wide">Things to do</p>
-            <div className="grid grid-cols-5 gap-4 m-3 justify-items-center ">
+            <div className="grid grid-cols-2 md:grid-cols-5 gap-4 m-3 justify-items-center">
                 {
                     allActivities.map((activities) => {
                         return (
@@ -32,36 +32,6 @@ function Thingtodo() {
                         )
                     })
                 }
-
-
-                {/* <div>
-                    <div
-                        className="rounded-full h-[18vh]  w-[4rem] bg-cover"
-                        style={{ backgroundImage: `url(${kato})` }}
-                    ></div>
-                    <p className="my-3">Beaches</p>
-                </div>
-                <div>
-                    <div
-                        className="rounded-full h-[18vh]  w-[4rem] bg-cover"
-                        style={{ backgroundImage: `url(${kato})` }}
-                    ></div>
-                    <p className="my-3">Beaches</p>
-                </div>
-                <div>
-                    <div
-                        className="rounded-full h-[18vh]  w-[4rem] bg-cover"
-                        style={{ backgroundImage: `url(${kato})` }}
-                    ></div>
-                    <p className="my-3">Beaches</p>
-                </div>
-                <div>
-                    <div
-                        className="rounded-full h-[18vh]  w-[4rem] bg-cover"
-                        style={{ backgroundImage: `url(${kato})` }}
-                    ></div>
-                    <p className="my-3">Beaches</p>
-                </div> */}
             </div>
         </div>
     )
