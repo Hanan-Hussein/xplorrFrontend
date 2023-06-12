@@ -16,11 +16,12 @@ module.exports = {
       colors: {
         textBrand: '#fb8500'
       },
-      backgroundImage:{
+      backgroundImage: {
         herobackground: "url('/src/assets/worldMap.svg')",
         vacationbackground: "url('/src/assets/vacation.jpg')",
+        callActionBackground: "url('/src/assets/callAction.png')"
       },
-    
+
     },
   },
   plugins: [],

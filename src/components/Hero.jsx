@@ -4,6 +4,9 @@ import NavBar from "./NavBar";
 import kato from "../assets/kato.jpg";
 import china from "../assets/temple.jpg";
 import Thingtodo from "./Thingstodo";
+import Popular from './popular'
+import Description from './description'
+import CallAction from './callAction'
 function HeroSection() {
     return (
         <>
@@ -35,44 +38,10 @@ function HeroSection() {
                 </div> */}
             </div>
             <Thingtodo />
-            <div className="container mx-auto mt-12">
-                <p className="mb-7 font-bold tracking-wide">Popular Destination</p>
-                <div className="grid grid-cols-4 gap-5">
-                    <div className="mb-5 ">
-                        <img
-                            class="mb-2 md:h-[40vh] md:w-[20vw] transition-all duration-300 rounded-lg cursor-pointer filter grayscale-0 hover:grayscale"
-                            src={china}
-                            alt="image description"
-                        />
-                        <p className="text-center">Temple Of China</p>
-                    </div>
+         <Popular/>
+         <Description/>
+         <CallAction/>
 
-                    <div className="mb-5 ">
-                        <img
-                            class="mb-2 md:h-[40vh] md:w-[20vw] transition-all duration-300 rounded-lg cursor-pointer filter grayscale-0 hover:grayscale"
-                            src={kato}
-                            alt="image description"
-                        />
-                        <p className="text-center">Temple Of China</p>
-                    </div>
-                    <div className="mb-5 ">
-                        <img
-                            class="mb-2 md:h-[40vh] md:w-[20vw] transition-all duration-300 rounded-lg cursor-pointer filter grayscale-0 hover:grayscale"
-                            src={china}
-                            alt="image description"
-                        />
-                        <p className="text-center">Temple Of China</p>
-                    </div>
-                    <div className="mb-5 ">
-                        <img
-                            class="mb-2 md:h-[40vh] md:w-[20vw] transition-all duration-300 rounded-lg cursor-pointer filter grayscale-0 hover:grayscale"
-                            src={kato}
-                            alt="image description"
-                        />
-                        <p className="text-center">Temple Of China</p>
-                    </div>
-                </div>
-            </div>
         </>
     );
 }

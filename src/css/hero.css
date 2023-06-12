@@ -9,7 +9,6 @@
 
 .houseImage {
     position: absolute !important;
-
     top: 0;
     left: 25%;
 }
@@ -17,7 +16,8 @@
 .kato {
     font-family: 'Montserrat';
 }
-.mid-text{
+
+.mid-text {
     position: absolute;
     top: 50%;
     left: 50%;
