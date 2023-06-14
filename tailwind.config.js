@@ -19,7 +19,9 @@ module.exports = {
       backgroundImage: {
         herobackground: "url('/src/assets/worldMap.svg')",
         vacationbackground: "url('/src/assets/vacation.jpg')",
-        callActionBackground: "url('/src/assets/callAction.png')"
+        callActionBackground: "url('/src/assets/callAction.png')",
+        testBackground: "url('/src/assets/testback.jpg')",
+        destinationDeets: "url('/src/assets/travel.jpeg')"
       },
 
     },

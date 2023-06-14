@@ -9,7 +9,7 @@ function Popular() {
             .then((response) => {
                 setpopular(response.data)
             })
-    })
+    }, [])
     return (
         <div className="container mx-auto mt-12 my-10">
             <p className="mb-7 font-bold tracking-wide">Popular Destination</p>

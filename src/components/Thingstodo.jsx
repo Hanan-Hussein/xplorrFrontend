@@ -1,6 +1,7 @@
 import kato from "../assets/kato.jpg";
 import china from "../assets/temple.jpg";
 import axios from "axios";
+import { NavLink } from "react-router-dom";
 import React, { useEffect, useState } from "react";
 function Thingtodo() {
     const [allActivities, setActivities] = React.useState([])
@@ -21,13 +22,16 @@ function Thingtodo() {
                     allActivities.map((activities) => {
                         return (
                             <div className="">
-                                <div
-                                    className="rounded-full h-[18vh]  w-[7rem] bg-cover"
-                                    style={{ backgroundImage: `url(https://res.cloudinary.com/hanancodes/${activities.category_image})` }}
-                                >
+                                <NavLink to={'/category/' + activities.id}>
 
-                                </div>
-                                <p className="my-3 text-center">{activities.name}</p>
+                                    <div
+                                        className="rounded-full h-[18vh]  w-[7rem] bg-cover"
+                                        style={{ backgroundImage: `url(https://res.cloudinary.com/hanancodes/${activities.category_image})` }}
+                                    >
+
+                                    </div>
+                                    <p className="my-3 text-center">{activities.name}</p>
+                                </NavLink>
                             </div>
                         )
                     })
